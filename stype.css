@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-container{
+  background:linear-gradient(to right, #EEF5DF, #DCEBFA)
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+img{
+  width: 50vw;
+  height: 400px;
+}
+
+.heading-section h1{
+  padding: 10px;
+}
+
+.hero-section button{
+  background-color: rgb(26, 94, 242);
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.hero-section button a{
+  color: white;
+}
+
+.list-container{
+  display: flex;
+  height: 200px;
+  gap: 20px;
+}
+
+.ordered-list-container,
+.unordered-list-container{
+  width: 400px;
+  height: 200;
+  background-color:white;
+  border-radius: 10px;
+}
+
+
+.ordered-list-container h2,
+.unordered-list-container h2{
+  color: rgb(26, 94, 242);
+  padding:10px 20px;
+}
+
+.ordered-list-container ol li,
+.unordered-list-container ul li{
+  list-style-position: inside;
+  color: black;
+  margin-top: 12px;
+  padding-left: 15px;
+}
+
+.about-section{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  whitesmoke;
+  width: 100vw;
+  height: auto;
+}
+
+.about-section h2{
+  padding-top: 20px;
+  color: gray;
+}
+
+.about-section p{
+  color: gray;
+  margin-bottom: 20px;
+}
+
